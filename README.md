@@ -3,5 +3,5 @@ Hello and welcome to my personal Data Scientist Portfolio. My name is **Marcelo 
 ## Project Number 1: Titanic Kaggle Competition Project
 
 ## Project Number 2: Diabetes Prediction Project
-## Project Number 3: Deep Learning
+## Project Number 3: Itau Binnario Competition 
 ## Project Number 4: Implementing LeNet5 For Image Classification

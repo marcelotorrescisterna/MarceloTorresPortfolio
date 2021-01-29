@@ -17,6 +17,7 @@ Digging deeper into the survivors, we can identify that people belonging to Pcla
 ![](/images/TitanicByClass.PNG)
 
 Next up is the correlation matrix. We can see that the most strong positive correlation is between Parch (# of parents / children aboard the Titanic) and SibSp (# of siblings / spouses aboard the Titanic). Also that the most negative correlation is between Pclass and Fare which is quite obvious (Third class ticket is the cheapest).  
+![](/images/TitanicCorr.PNG)
 
 
 ### Model Number 1

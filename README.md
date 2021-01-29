@@ -12,6 +12,11 @@ The first thing we can identify is that it´s a very small dataset (as mentioned
 
 Next, I decided to use some plots to visualize the data in a better way. The first plot shows the target class: 0 Didn´t Survive , 1 Survived. As we can see below, the difference between survivors and non survivors isn´t quite big. Digging deeper into the survivors, we can identify that people belonging to Pclass 3 (Third Class Ticket) were the ones who mostly died.
 
+Next up is the correlation matrix. We can see that the most strong positive correlation is between Parch (# of parents / children aboard the Titanic) and SibSp (# of siblings / spouses aboard the Titanic). Also that the most negative correlation is between Pclass and Fare which is quite obvious (Third class ticket is the cheapest).
+
+### Model Number 1
+
+For this project I decided to run two Neural Network Models. Both of them were 
 
 ## Project Number 2: Diabetes Prediction Project
 ## Project Number 3: Itau Binnario Competition 

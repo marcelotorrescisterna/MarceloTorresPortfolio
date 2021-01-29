@@ -6,8 +6,7 @@ The Titanic Project is a classic project from Kaggle specially for beginners in 
 ### Exploratory Data Analysis
 Before starting any project, it´s very useful to take a look at the data, this is a very common task known as Exploratory Data Analysis.  
 
-![](/images/Describe.PNG)  
-
+![](/images/Describe.PNG)
 ## Project Number 2: Diabetes Prediction Project
 ## Project Number 3: Itau Binnario Competition 
 ## Project Number 4: Implementing LeNet5 For Image Classification

@@ -4,6 +4,7 @@ Hello and welcome to my personal Data Scientist Portfolio. My name is **Marcelo 
 The Titanic Project is a classic project from Kaggle specially for beginners in the data science world. THe goal of this project is to classify if a person as a survivor or not. As it´s usual in the world of Data Science, there are several approaches that can lead to a possible solution. For this particular task I decided to work with Neural Networks. As a personal opinion, Neural Networks are one of my favorite tools.  
 
 ### Exploratory Data Analysis
+Before starting any project, it´s very useful to take a look at the data, this is a very common task known as Exploratory Data Analysis.
 ## Project Number 2: Diabetes Prediction Project
 ## Project Number 3: Itau Binnario Competition 
 ## Project Number 4: Implementing LeNet5 For Image Classification

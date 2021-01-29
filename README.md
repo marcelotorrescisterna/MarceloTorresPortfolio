@@ -6,7 +6,13 @@ The Titanic Project is a classic project from Kaggle specially for beginners in 
 ### Exploratory Data Analysis
 Before starting any project, it´s very useful to take a look at the data, this is a very common task known as Exploratory Data Analysis.  
 
-![](/images/Describe.PNG)        ![](/images/DfTitanic.PNG)
+![](/images/Describe.PNG)        ![](/images/DfTitanic.PNG)  
+
+The first thing we can identify is that it´s a very small dataset (as mentioned before, beginners project), with only 891 entries. Some variables are categorical, others only are an id of the instance. Therefore, those features were the first ones to be deleted: Passenger ID and Name. We can also see that Age, Cabin and Embarked have missing values for some instances.
+
+Next, I decided to use some plots to visualize the data in a better way. The first plot shows the target class: 0 Didn´t Survive , 1 Survived. As we can see below, the difference between survivors and non survivors isn´t quite big. Digging deeper into the survivors, we can identify that people belonging to Pclass 3 (Third Class Ticket) were the ones who mostly died.
+
+
 ## Project Number 2: Diabetes Prediction Project
 ## Project Number 3: Itau Binnario Competition 
 ## Project Number 4: Implementing LeNet5 For Image Classification

@@ -36,10 +36,14 @@ I tried a second model. This time I changed the structure: 3 layers of **32 Neur
 ![](/images/CorrMat12.PNG)
 
 ## Project Number 2: Itaú Binnario Competition  
-This was actually **my first own project and my first competition**. It took place last year during October. This challenge was about predicting if a customer would buy one, more than one or none of a list of five different bank products (A-A, B-B, C-D, D-E , E-E). The competition was sponsored by Binnario.ai and Banco Itaú. Several databases were given: The first one containing 24 million transactions belonging to 79539 differente customers. The second one containing details of different campaigns that were made. The third one containing information about how customers were reached and a fourth database in which information of each customer was detailed. According to the platform, more than 70 different models were submitted. I ended up number 35 on the overall leaderboard.  
+This was actually **my first own project and my first competition**. It took place last year during October. This challenge was about predicting if a customer would buy one, more than one or none of a list of five different bank products (A-A, B-B, C-D, D-E , E-E). The competition was sponsored by Binnario.ai and Banco Itaú. Several databases were given: The first one containing 24 million transactions belonging to 79539 differente customers. The second one containing details of different campaigns that were made. The third one containing information about how customers were reached, the fourth about Communications with clients and the fifth database in which information of each customer was detailed. According to the platform, more than 70 different models were submitted. I ended up number 35 on the overall leaderboard.  
 
 ### Exploratory Data Analysis
-First of all I began with the **Campaign** Database. The plots below show that campaings were focused on 4 out of 5 products, mainly on product A-A. Also, the month in which most of the campaings were made was March 2020. However, eventhough there was quite a good effort, results show that campaings weren´t effective enough. 
+First of all I began with the **Campaign** Database. The plots below show that campaings were focused on 4 out of 5 products, mainly on product A-A. Also, the month in which most of the campaings were made was March 2020. 
+![](/images/Campañas1.PNG)![](/images/Campañas2.PNG)  
+
+However, eventhough there was quite a good effort, results show that campaings weren´t effective enough.  
+![](/images/Campañas3.PNG)
 
 
 ## Project Number 3: Diabetes Prediction Project  

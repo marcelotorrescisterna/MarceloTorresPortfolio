@@ -36,7 +36,7 @@ I tried a second model. This time I changed the structure: 3 layers of **32 Neur
 ![](/images/CorrMat12.PNG)
 
 ## Project Number 2: Itaú Binnario Competition  
-This was actually **my first own project and my first competition**. It took place last year during October. This challenge was about predicting if a customer would buy one, more than one or none of a list of five different bank products. The competition was sponsored by Binnario.ai and Banco Itaú. Several databases were given: 
+This was actually **my first own project and my first competition**. It took place last year during October. This challenge was about predicting if a customer would buy one, more than one or none of a list of five different bank products. The competition was sponsored by Binnario.ai and Banco Itaú. Several databases were given: The first one containing 24 million transactions belonging to 79539 differente customers. The second one containing details of different campaigns that were made. The third one containing information about how customers were reached and a fourth database in which information of each customer was detailed.
 
 
 ## Project Number 3: Diabetes Prediction Project  

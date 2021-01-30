@@ -46,7 +46,7 @@ However, eventhough there was quite a good effort, results show that campaings w
 ![](/images/Campañas3.PNG)
 
 **Communications** Database was targeted towards all five products and only a small part of customers read the communication.  
-![](/images/Comu1.PNG)![](/images/Comu2.PNG) 
+![](/images/Comu1.png)![](/images/Comu2.png) 
 
 
 **Client Information** was a very large database. Therefore as a summary I´m only going to show a couple of features. Starting with the **Age** of customers, there was a great variety. The largest amount of clients belonged to group which had an age between 25 and 30 years old. Customers also have mostly medium-high income levels (R4 to R1) and have been members from the bank between 8 and 9 years.

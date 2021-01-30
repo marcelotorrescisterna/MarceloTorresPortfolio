@@ -52,6 +52,13 @@ However, eventhough there was quite a good effort, results show that campaings w
 **Client Information** was a very large database. Therefore as a summary I´m only going to show a couple of features. Starting with the **Age** of customers, there was a great variety. The largest amount of clients belonged to group which had an age between 25 and 30 years old. Customers also have mostly medium-high income levels (R4 to R1) and have been members from the bank between 8 and 9 years.  
 ![](/images/Consum1.jpg)![](/images/Consum2.jpg) ![](/images/Consumidores3.PNG) 
 
+### Exploratory Data Analysis: Transactions Database  
+This was the biggest database of the whole set. As shown in the figure below, most of the transactions involved products A-K and G-K .  
+![](/images/Transac1.jpg)
+
+
+An important feature from this dataset is the one called **Sign** which indicates if the transaction was positive or negative. However in this feature, 1.439.192 values were missing all belonging to product A-G. As an assumption I decided to consider all these missing values as **Positive**. 
+
 
 ## Project Number 3: Diabetes Prediction Project  
 

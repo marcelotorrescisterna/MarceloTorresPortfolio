@@ -37,7 +37,10 @@ I tried a second model. This time I changed the structure: 3 layer of **32 Neuro
 
 ![](/images/CorrMat12.PNG)
 
+## Project Number 2: Itau Binnario Competition  
+This was actually my first own project and my first competition. It took place last year during October. This challenge was about predicting if a customer would buy one, more than one or none of a list of five different bank products. The competition was sponsored by Binnario.ai and Banco Itau. 
 
-## Project Number 2: Diabetes Prediction Project
-## Project Number 3: Itau Binnario Competition 
+
+## Project Number 3: Diabetes Prediction Project  
+
 ## Project Number 4: Implementing LeNet5 For Image Classification

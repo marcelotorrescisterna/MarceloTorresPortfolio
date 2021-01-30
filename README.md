@@ -16,7 +16,8 @@ Next, I decided to use some plots to visualize the data in a better way. The fir
 Digging deeper into the survivors, we can identify that people belonging to Pclass 3 (Third Class Ticket) were the ones who mostly died.  
 ![](/images/TitanicByClass.PNG)
 
-Next up is the correlation matrix. We can see that the most strong positive correlation is between Parch (# of parents / children aboard the Titanic) and SibSp (# of siblings / spouses aboard the Titanic). Also that the most negative correlation is between Pclass and Fare which is quite obvious (Third class ticket is the cheapest).    
+Next up is the correlation matrix. We can see that the most strong positive correlation is between Parch (# of parents / children aboard the Titanic) and SibSp (# of siblings / spouses aboard the Titanic). Also that the most negative correlation is between Pclass and Fare which is quite obvious (Third class ticket is the cheapest).  
+![](/images/TitanicCorr.PNG)
 
 
 
@@ -25,12 +26,16 @@ Next up is the correlation matrix. We can see that the most strong positive corr
 For this project I decided to run two Neural Network Models. Both of them were build up on features which hadn´t missing values. The features selected where: **Pclass , Sex , SibSp, Parch and Embarked.** Since features Sex, Embarked and Pclass are categorical, they were converted into different features using **Get Dummies** from Pandas. I didn´t use Features Scaling since most of the values were more or less in a similar range.  
 ![](/images/TitanicG11.PNG)![](/images/TitanicG12.PNG) 
 
-Using **Keras** the first model was built using a 4 layer network. The first one containing **64 Neurons** , the second one **128 Neurons** , the third **64 Neurons** and one final layer with only **One Neuron** which outputs the class to which the instance belongs. The code to this project is available on my github page. For the training set I used 80% of the data, 10% for validation and 10% for testing. **NOTE: Since Training Test Split uses a random seed to generate this random split, we aren´t going to get the same results**. The results are shown below. As you can see it gets almos 80% accuracy, however when we compare the learning curves, we can see that the model is overfitting the data. To fix this, **Dropout Regularization** was applied. The results are shown below. As you can see, the learning curve is way more smooth thanks to regularization. Confusion matrices are very similar as so as the accuracy obtained. With this model my score was 77% , giving me the ranking in the leaderboard of 4360/16579. 
+Using **Keras** the first model was built using a 4 layer network. The first one containing **64 Neurons** , the second one **128 Neurons** , the third **64 Neurons** and one final layer with only **One Neuron** which outputs the class to which the instance belongs. The code to this project is available on my github page. For the training set I used 80% of the data, 10% for validation and 10% for testing. **NOTE: Since Training Test Split uses a random seed to generate this random split, we aren´t going to get the same results**. The results are shown below. As you can see it gets almos 80% accuracy, however when we compare the learning curves, we can see that the model is overfitting the data. To fix this, **Dropout Regularization** was applied. The results are shown below. As you can see, the learning curve is way more smooth thanks to regularization. Confusion matrices are very similar as so as the accuracy obtained. With this model my score was 77% , giving me the ranking in the leaderboard of 4360/16579.  
 ![](/images/CorrMat11.PNG) 
 
 ### Model Number 2
 
-I tried a second model. This time I changed the structure: 3 layer of **32 Neurons** and one output neuron. Regularization was also applied. The results are shown below. Both models gave the same score on the Kaggle Leaderboard.
+I tried a second model. This time I changed the structure: 3 layer of **32 Neurons** and one output neuron. Regularization was also applied. The results are shown below. Both models gave the same score on the Kaggle Leaderboard.  
+![](/images/TitanicG21.PNG)![](/images/TitanicG22.PNG)  
+
+![](/images/CorrMat12.PNG)
+
 
 ## Project Number 2: Diabetes Prediction Project
 ## Project Number 3: Itau Binnario Competition 

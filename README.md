@@ -56,7 +56,7 @@ However, eventhough there was quite a good effort, results show that campaings w
 This was the biggest database of the whole set. As shown in the figure below, most of the transactions involved products A-K and G-K .  
 ![](/images/Transac1.jpg)
 
-Also, a correlation matrix was built (only with no missing sign values) with the amounts of all the transactions, showing important correlations. For example, product F-H and F-J are perfectly negative correlated. Products, E-F and E-E have a negative correlation of -0.9, similar to products D-F and D-E (-0.96) and products C-D and C-C (-0.9).
+Also, a correlation matrix was built (only with no missing sign values) with the amounts of all the transactions, showing important correlations. For example, product F-H and F-J are perfectly negative correlated. Products, E-F and E-E have a negative correlation of -0.9, similar to products D-F and D-E (-0.96) and products C-D and C-C (-0.9).  
 
 ![](/images/CorrMat.JPG)
 

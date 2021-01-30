@@ -6,7 +6,7 @@ The Titanic Project is a classic project from Kaggle specially for beginners in 
 ### Exploratory Data Analysis
 Before starting any project, it´s very useful to take a look at the data, this is a very common task known as Exploratory Data Analysis.  
 
-![](/images/Describe.PNG)        ![](/images/DfTitanic.PNG)  
+![](/images/Describe.PNG)  ![](/images/DfTitanic.PNG)  
 
 The first thing we can identify is that it´s a very small dataset (as mentioned before, beginners project), with only 891 entries. Some variables are categorical, others only are an id of the instance. Therefore, those features were the first ones to be deleted: Passenger ID and Name. We can also see that Age, Cabin and Embarked have missing values for some instances.
 
@@ -23,6 +23,7 @@ Next up is the correlation matrix. We can see that the most strong positive corr
 ### Model Number 1
 
 For this project I decided to run two Neural Network Models. Both of them were build up on features which hadn´t missing values. The features selected where: **Pclass , Sex , SibSp, Parch and Embarked.** Since features Sex, Embarked and Pclass are categorical, they were converted into different features using **Get Dummies** from Pandas. I didn´t use Features Scaling since most of the values were more or less in a similar range.  
+![](/images/TitanicG11.PNG)![](/images/TitanicG12.PNG) 
 
 Using **Keras** the first model was built using a 4 layer network. The first one containing **64 Neurons** , the second one **128 Neurons** , the third **64 Neurons** and one final layer with only **One Neuron** which outputs the class to which the instance belongs. The code to this project is available on my github page. For the training set I used 80% of the data, 10% for validation and 10% for testing. **NOTE: Since Training Test Split uses a random seed to generate this random split, we aren´t going to get the same results**. The results are shown below. As you can see it gets almos 80% accuracy, however when we compare the learning curves, we can see that the model is overfitting the data. To fix this, **Dropout Regularization** was applied. The results are shown below. As you can see, the learning curve is way more smooth thanks to regularization. Confusion matrices are very similar as so as the accuracy obtained. With this model my score was 77% , giving me the ranking in the leaderboard of 4360/16579. 
 

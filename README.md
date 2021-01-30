@@ -63,6 +63,10 @@ Also, a correlation matrix was built (only with no missing sign values) with the
 An important feature from this dataset is the one called **Sign** which indicates if the transaction was positive or negative. However in this feature, 1.439.192 values were missing all belonging to product A-G. As an assumption I decided to consider all these missing values as Positive.
 
 
+### Model  
+For this challenge I decided to try again with a Neural Network (by that time I didn´t know algorithms such as XGBoost which is one of the best algorithms).
+
+
 
 
 ## Project Number 3: Diabetes Prediction Project  

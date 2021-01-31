@@ -88,7 +88,10 @@ As usual, I started with an EDA using the describe tool from pandas. There were 
 
 
 Using Seaborn I managed to visualize other aspects of the dataset. For example that nearly almost a third of the patients had diabetes and also that the proportion of patients which had the disease was bigger in those patients who´s age was in the range 31-33 or 41-45 as shown below.  
-![](/images/DiabClass.PNG)![](/images/DiabClass2.PNG)
+![](/images/DiabClass.PNG)![](/images/DiabClass2.PNG)  
+
+Also I created a Correlation Matrix to try and see the behavior between features:  
+![](/images/DiabCorr.PNG)
 
 
 

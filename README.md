@@ -79,8 +79,7 @@ So, eventhough I didn´t reach the top 10, as a first competition I was pretty h
 [Competition News](https://mundoenlinea.cl/2021/01/13/itau-desarrollara-modelo-para-anticiparse-a-las-proximas-transacciones-de-clientes-bancarios/)
 
 
-
-
 ## Project Number 3: Diabetes Prediction Project  
+This project wasn´t too complicated. It´s a small dataset (768 instances) in which 6 features are given for each patient and the target is to predict if it has diabetes or not. This dataset was obtained from [OpenML.com](https://www.openml.org/).
 
 ## Project Number 4: Implementing LeNet5 For Image Classification

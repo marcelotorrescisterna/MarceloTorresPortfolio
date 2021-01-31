@@ -64,7 +64,8 @@ An important feature from this dataset is the one called **Sign** which indicate
 
 
 ### Model  
-For this challenge I decided to try again with a Neural Network (by that time I didn´t know algorithms such as XGBoost which is currently one of the best algorithms). I´m not going to dig deeper into the preprocessing I did with all the data (creating dummy variables, dealing with missing values, etc), but the code is available on my github page. So basically, I tried a whole amount of different combinations trying to find the best model. The best combination I could find was
+For this challenge I decided to try again with a Neural Network (by that time I didn´t know algorithms such as XGBoost which is currently one of the best algorithms). I´m not going to dig deeper into the preprocessing I did with all the data (creating dummy variables, dealing with missing values, etc), but the code is available on my github page. So basically, I tried a whole amount of different combinations trying to find the best model. The best combination I could find was a 3 layer model: The First Layer containing **200 Neurons** , The Second Layer **800 Neurons** and The Third Layer with **5 Neurons** , were each of them outputs 1 if the client buys that product or 0 if it doesn´t. The model was trained on 300 epochs using mini batches of 1000 instances each and a validation split of 20%. The learning curves are shown below.  
+![](/images/ModelItau.JPG)
 
 
 

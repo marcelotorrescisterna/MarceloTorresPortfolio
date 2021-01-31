@@ -1,7 +1,7 @@
 # Marcelo Torres: Data Scientist Portfolio
-Hello and welcome to my personal Data Scientist Portfolio. My name is **Marcelo Torres** and I am a Data Scientist, Industrial Engineer with a Master´s Degree in Finance. I began my journey in Data Science when I wrote my thesis when I was finishing my engineering career back in 2019. I had to work with a dataset of 7 million entries, therefore I was forced to learn Python and it´s most common libraries for working with data such as Pandas and Numpy. Since then and during all 2020 I started my path on Data Science, focusing my effort on learning Machine Learning and Deep Learning. During the whole year I did a great amount of courses from Coursera and Udemy which gave me a great amount of knowledge. I also did several projects in those courses and some of my own which I intend to show in this portfolio.
+Hello and welcome to my personal Data Scientist Portfolio. My name is **Marcelo Torres** and I am a Data Scientist, Industrial Engineer with a Master´s Degree in Finance. I began my journey in Data Science when I wrote my thesis when I was finishing my engineering career back in 2019. I had to work with a dataset of 7 million entries, therefore I was forced to learn Python and its most common libraries for working with data such as Pandas and Numpy. Since then and during all 2020 I started my path on Data Science, focusing my effort on learning Machine Learning and Deep Learning. During the whole year I did a great amount of courses from Coursera and Udemy which gave me a great amount of knowledge. I also did several projects in those courses and some of my own which I intend to show in this portfolio.
 ## Project Number 1: Titanic Kaggle Competition Project
-The Titanic Project is a classic project from Kaggle specially for beginners in the data science world. THe goal of this project is to classify if a person as a survivor or not. As it´s usual in the world of Data Science, there are several approaches that can lead to a possible solution. For this particular task I decided to work with Neural Networks. As a personal opinion, Neural Networks are one of my favorite tools.  
+The Titanic Project is a classic project from Kaggle specially for beginners in the data science world. THe goal of this project is to classify a passenger as a survivor or not. As it´s usual in the world of Data Science, there are several approaches that can lead to a possible solution. For this particular task I decided to work with Neural Networks. As a personal opinion, Neural Networks are one of my favorite tools.  
 
 ### Exploratory Data Analysis
 Before starting any project, it´s very useful to take a look at the data, this is a very common task known as Exploratory Data Analysis.  
@@ -91,7 +91,16 @@ Using Seaborn I managed to visualize other aspects of the dataset. For example t
 ![](/images/DiabClass.PNG)![](/images/DiabClass2.PNG)  
 
 Also I created a Correlation Matrix to try and see the behavior between features:  
-![](/images/DiabCorr.PNG)
+![](/images/DiabCorr.PNG)  
+
+So, the strongest positive correlation was between Age and number of times pregnant (which it kind of makes sense) , followed by the correlation between skin thickness and insuline levels. 
+
+
+### Model 1: Logistic Regression  
+Since it´s a classification problem, one of the most common models is Logistic Regression. As usual, some preprocessing of the data including One Hot transformation and feature scaling was applied. So, the target value is 1 in case the patient has the disease and 0 if it´s healthy. The results of the model are shown below. The model has a precision of 80% nearly in both classes, however it has 93% recall on class 0 and only 54% on class 1.  
+
+### Model 2: Random Forest  
+Another commonly used algorithm is Random Forest which is an ensemble of Decision Trees. The results are shown below:
 
 
 

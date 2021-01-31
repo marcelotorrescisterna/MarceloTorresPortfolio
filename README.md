@@ -80,7 +80,17 @@ So, eventhough I didn´t reach the top 10, as a first competition I was pretty h
 
 
 ## Project Number 3: Diabetes Prediction Project  
-This project wasn´t too complicated. It´s a small dataset (768 instances) in which 6 features are given for each patient and the target is to predict if it has diabetes or not. This dataset was obtained from [OpenML.com](https://www.openml.org/).
+This project is quite simple, but useful to practice algorithms. It´s a small dataset (768 instances) in which 6 features are given for each patient and the target is to predict if it has diabetes or not. This dataset was obtained from [OpenML.com](https://www.openml.org/). The features that were in the dataset were the following: Number of times pregnant, Plasma glucose concentration a 2 hours in an oral glucose tolerance test, Diastolic blood pressure (mm Hg), Triceps skin fold thickness (mm), 2-Hour serum insulin (mu U/ml), Body mass index (weight in kg/(height in m)^2), Diabetes pedigree function and Age (years).  
+
+### Exploratory Data Analysis  
+As usual, I started with an EDA using the describe tool from pandas. There were no missing values in the dataset.  
+![](/images/DescribeDiab.PNG)
+
+
+Using Seaborn I managed to visualize other aspects of the dataset. For example that nearly almost a third of the patients had diabetes and also that the proportion of patients which had the disease was bigger in those patients who´s age was in the range 31-33 or 41-45 as shown below.  
+![](/images/DiabClass.PNG)![](/images/DiabClass2.PNG)
+
+
 
 ## Project Number 4: Implementing LeNet5 For Image Classification  
 Coming soon...

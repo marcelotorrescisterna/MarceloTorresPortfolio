@@ -104,7 +104,9 @@ Since it´s a classification problem, one of the most common models is Logistic 
 ### Model 2: Random Forest  
 Another commonly used algorithm is Random Forest which is an ensemble of Decision Trees. The results are shown below:  
 ![](/images/ClasMatDiab2.PNG)  
-![](/images/ClasRepDiab2.PNG)
+![](/images/ClasRepDiab2.PNG)  
+
+After comparing both models, we can see that both of them have a pretty similar accuracy score, however the Logistic Regression model has a more accurate precision score than the Random Forest Classifier. Most of the models for this set have 70% accuracy, you can visit the global models [here](https://www.openml.org/t/37).
 
 
 

@@ -98,9 +98,13 @@ So, the strongest positive correlation was between Age and number of times pregn
 
 ### Model 1: Logistic Regression  
 Since it´s a classification problem, one of the most common models is Logistic Regression. As usual, some preprocessing of the data including One Hot transformation and feature scaling was applied. So, the target value is 1 in case the patient has the disease and 0 if it´s healthy. The results of the model are shown below. The model has a precision of 80% nearly in both classes, however it has 93% recall on class 0 and only 54% on class 1.  
+![](/images/ClasMatDiab1.PNG)  
+![](/images/ClasRepDiab1.PNG) 
 
 ### Model 2: Random Forest  
-Another commonly used algorithm is Random Forest which is an ensemble of Decision Trees. The results are shown below:
+Another commonly used algorithm is Random Forest which is an ensemble of Decision Trees. The results are shown below:  
+![](/images/ClasMatDiab2.PNG)  
+![](/images/ClasRepDiab2.PNG)
 
 
 

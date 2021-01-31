@@ -1,7 +1,7 @@
 # Marcelo Torres: Data Scientist Portfolio
 Hello and welcome to my personal Data Scientist Portfolio. My name is **Marcelo Torres** and I am a Data Scientist, Industrial Engineer with a Master´s Degree in Finance. I began my journey in Data Science when I wrote my thesis while I was finishing my engineering career back in 2019. I had to work with a dataset of 7 million instances, therefore I was forced to learn Python and its most common libraries for working with data such as Pandas and Numpy. Since then and during all 2020 I started my path on Data Science, focusing my effort on learning Machine Learning and Deep Learning. During the whole year I did a great amount of courses from Coursera and Udemy which gave me a great amount of knowledge. I also did several projects in those courses and some of my own which I intend to show in this portfolio.
 ## Project Number 1: Titanic Kaggle Competition Project
-The Titanic Project is a classic project from Kaggle specially for beginners in the data science world. THe goal of this project is to classify a passenger as a survivor or not. As it´s usual in the world of Data Science, there are several approaches that can lead to a possible solution. For this particular task I decided to work with Neural Networks. As a personal opinion, Neural Networks are one of my favorite tools.  
+The Titanic Project is a classic project from Kaggle specially for beginners in the data science world. THe goal of this project is to classify a passenger as a survivor or not. As it´s usual in the world of Data Science, there are several approaches that can lead to a possible solution. For this particular task I decided to work with Neural Networks. As a personal opinion, Neural Networks are one of my favorite tools. [The Code for this proyect is here.](https://github.com/marcelotorrescisterna/MarceloTorresPortfolio/tree/main/TitanicProject)
 
 ### Exploratory Data Analysis
 Before starting any project, it´s very useful to take a look at the data, this is a very common task known as Exploratory Data Analysis.  
@@ -17,7 +17,7 @@ Digging deeper into the survivors, we can identify that people belonging to Pcla
 ![](/images/TitanicByClass.PNG)
 
 Next up is the correlation matrix. We can see that the most strong positive correlation is between Parch (# of parents / children aboard the Titanic) and SibSp (# of siblings / spouses aboard the Titanic). Also that the most negative correlation is between Pclass and Fare which is quite obvious (Third class ticket is the cheapest).  
-![](/images/TitanicCorr.PNG)
+![](/images/TitanicCorr.PNG)  
 
 
 ### Model Number 1
@@ -40,7 +40,7 @@ I tried a second model. This time I changed the structure: 3 layers of **32 Neur
 
 
 ## Project Number 2: Itaú Binnario Competition  
-This was actually **my first own project and my first competition**. It took place last year during October. This challenge was about predicting if a customer would buy one, more than one or none of a list of five different bank products (A-A, B-B, C-D, D-E , E-E). The competition was sponsored by Binnario.ai and Banco Itaú. Several databases were given: The first one containing 24 million transactions belonging to 79539 differente customers. The second one containing details of different campaigns that were made. The third one containing information about communications with clients and the fourth database information of each customer was detailed. According to the platform, more than 70 different models were submitted. I ended up number 35 on the overall leaderboard.  
+This was actually **my first own project and my first competition**. It took place last year during October. This challenge was about predicting if a customer would buy one, more than one or none of a list of five different bank products (A-A, B-B, C-D, D-E , E-E). The competition was sponsored by Binnario.ai and Banco Itaú. Several databases were given: The first one containing 24 million transactions belonging to 79539 differente customers. The second one containing details of different campaigns that were made. The third one containing information about communications with clients and the fourth database information of each customer was detailed. According to the platform, more than 70 different models were submitted. I ended up number 35 on the overall leaderboard. [The Code for this proyect is here.](https://github.com/marcelotorrescisterna/MarceloTorresPortfolio/tree/main/ItauProject) 
 
 ### Exploratory Data Analysis
 First of all I began with the **Campaign** Database. The plots below show that campaings were focused on 4 out of 5 products, mainly on product A-A. Also, the month in which most of the campaings were made was March 2020.   
@@ -80,7 +80,7 @@ So, eventhough I didn´t reach the top 10, as a first competition I was pretty h
 
 
 ## Project Number 3: Diabetes Prediction Project  
-This project is quite simple, but useful to practice algorithms. It´s a small dataset (768 instances) in which 6 features are given for each patient and the target is to predict if it has diabetes or not. This dataset was obtained from [OpenML.com](https://www.openml.org/). The features that were in the dataset were the following: Number of times pregnant, Plasma glucose concentration a 2 hours in an oral glucose tolerance test, Diastolic blood pressure (mm Hg), Triceps skin fold thickness (mm), 2-Hour serum insulin (mu U/ml), Body mass index (weight in kg/(height in m)^2), Diabetes pedigree function and Age (years).  
+This project is quite simple, but useful to practice algorithms. It´s a small dataset (768 instances) in which 6 features are given for each patient and the target is to predict if it has diabetes or not. This dataset was obtained from [OpenML.com](https://www.openml.org/). The features that were in the dataset were the following: Number of times pregnant, Plasma glucose concentration a 2 hours in an oral glucose tolerance test, Diastolic blood pressure (mm Hg), Triceps skin fold thickness (mm), 2-Hour serum insulin (mu U/ml), Body mass index (weight in kg/(height in m)^2), Diabetes pedigree function and Age (years). [The Code for this proyect is here.](https://github.com/marcelotorrescisterna/MarceloTorresPortfolio/tree/main/DiabetesProject)
 
 ### Exploratory Data Analysis  
 As usual, I started with an EDA using the describe tool from pandas. There were no missing values in the dataset.  

@@ -70,7 +70,9 @@ The best combination I could find was a 3 layer model: The First Layer containin
 ![](/images/ModelItau.JPG)
 
 
-So, eventhough I didn´t reach the top 10, as a first competition I was pretty happy with my own performance. Also because it was the first time that I was facing a real life challenge.
+So, eventhough I didn´t reach the top 10, as a first competition I was pretty happy with my own performance. Also because it was the first time that I was facing a real life challenge. In here you can check more information about the competition:  
+[Competition Leaderboard](https://binnario-prod.netlify.app/challenge/-MMDsMov6MVyOl3gDuOB)  
+[Competition News](https://mundoenlinea.cl/2021/01/13/itau-desarrollara-modelo-para-anticiparse-a-las-proximas-transacciones-de-clientes-bancarios/)
 
 
 

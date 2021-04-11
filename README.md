@@ -138,10 +138,10 @@ Also, as anyone would expect, the highest delayes happen during __High Season Fl
 ![](/images/FDAtrasos5.PNG)  ![](/images/FDAtrasos6.PNG)  
 
  Joining all the different Rates, I created a new DataFrame of Features:  
-![](/images/FDATasasdf.png)  
+![](/images/Tasasdf.jpg)  
 
 An interesting fact to see is the correlation between the delay rates. Two correlations are worth mentioning: __57%__ between the delay rate of the airline and the delay rate of the destination; and __47%__ between the the delay of the type of flight (National or International) and the destination.  
-![](/images/FDCorrMat.PNG)  
+![](/images/FDCorrMat.jpg)  
 
 The final DataFrame I worked with was the union between the Dataframe with Rates and a binary variable showing the season in which the flight was booked. Also the daily rate was deleted since it didn´t give very much information.  
 

@@ -109,6 +109,10 @@ Another commonly used algorithm is **Random Forest** which is an ensemble of Dec
 After comparing both models, we can see that both of them have a pretty similar accuracy score, however the Logistic Regression model has a more accurate precision score than the Random Forest Classifier. Most of the models for this set have 70% accuracy, you can visit the global models [here](https://www.openml.org/t/37).
 
 
+## Project Number 4: Flight Delay 
+Actually, this was a challenge that I had to complete while I was on a selection process as a Data Scientist. The objective was to develop a model that could predict if a flight would be delayed or not.  
 
-## Project Number 4: Implementing LeNet5 For Image Classification  
-Coming soon...
+### Exploratory Data Analysis  
+The dataset consisted of 62806 instances without null values. As seen below, different features were given such as Programmed Date, Programmed Flight, Operation Date, Operation Flight, Day, Month, Name of the Airline, among others as seen on the figures below. The mean value for Month was __6.2__ and for Day __15.7__ meaning that on average most of people traveled June and on the 15th of each month.  
+
+In a more graphical way, by analyzing the histograms of these variables we can see that almost all of the flights belong to 2017, that on the last days of each month the number of trips raises drastically, probably because of Christas and New Year. During the whole year, the amount of flights is more or less stable, however you can see three clear peaks during January, July and December. Since the dataset belongs to trips to and from Santiago, Chile the previously mentioned months belong to Summer and Winter Holidays.

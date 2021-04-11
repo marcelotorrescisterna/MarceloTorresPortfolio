@@ -110,7 +110,7 @@ After comparing both models, we can see that both of them have a pretty similar 
 
 
 ## Project Number 4: Flight Delay 
-Actually, this was a challenge that I had to complete while I was on a selection process as a Data Scientist. The objective was to develop a model that could predict if a flight would be delayed or not.  
+Actually, this was a challenge that I had to complete while I was on a selection process as a Data Scientist. The objective was to develop a model that could predict if a flight would be delayed or not. As usual, [the code for this project is in this link.](https://github.com/marcelotorrescisterna/MarceloTorresPortfolio/tree/main/FlightDelay)
 
 ### Exploratory Data Analysis  
 The dataset consisted of 62806 instances without null values. As seen below, different features were given such as Programmed Date, Programmed Flight, Operation Date, Operation Flight, Day, Month, Name of the Airline, among others as seen on the figures below. The mean value for Month was __6.2__ and for Day __15.7__ meaning that on average most of people traveled June and on the 15th of each month.   

@@ -113,11 +113,19 @@ After comparing both models, we can see that both of them have a pretty similar 
 Actually, this was a challenge that I had to complete while I was on a selection process as a Data Scientist. The objective was to develop a model that could predict if a flight would be delayed or not.  
 
 ### Exploratory Data Analysis  
-The dataset consisted of 62806 instances without null values. As seen below, different features were given such as Programmed Date, Programmed Flight, Operation Date, Operation Flight, Day, Month, Name of the Airline, among others as seen on the figures below. The mean value for Month was __6.2__ and for Day __15.7__ meaning that on average most of people traveled June and on the 15th of each month. 
+The dataset consisted of 62806 instances without null values. As seen below, different features were given such as Programmed Date, Programmed Flight, Operation Date, Operation Flight, Day, Month, Name of the Airline, among others as seen on the figures below. The mean value for Month was __6.2__ and for Day __15.7__ meaning that on average most of people traveled June and on the 15th of each month.   
 ![](/images/FDDfHead.PNG)
 ![](/images/FDDescribe.PNG)  
 ![](/images/FDInfo.PNG)
 
 In a more graphical way, by analyzing the histograms of these variables we can see that almost all of the flights belong to 2017, that on the last days of each month the number of trips raises drastically, probably because of Christas and New Year. During the whole year, the amount of flights is more or less stable, however you can see three clear peaks during January, July and December. Since the dataset belongs to trips to and from Santiago, Chile the previously mentioned months belong to Summer and Winter Holidays.  
-![](/images/FDHists.PNG)
+![](/images/FDHists.PNG)  
 
+For this challenge I had to complete a series of exercises. I won´t explain all of them in here (you can see them on the Repository of the Project), but I would like to point out Exercise Number 2, in which I had to create de target variable which was took the value of 1 if the flight was fifteen minutes late and 0 in another case. Also other variables were asked to be created. This variables were mostly different types of delay rates (by day, by month, by flight, among others).  
+
+Moving on with the EDA, the figure below shows the distribution between delayed flights and non delayed flights.    
+![](/images/FDAtrasos.PNG)  
+
+You can clearly see that the classes are __Imbalanced__ , therefore using __Accuracy__ as a performance measure would be a wrong choice (later I will explain why). We should instead focus on __Precision__ , __Recall__ or __F1 Score__. The next two DataFrames show that the location with most delayed flights is __Sydney (58%)__ and that the Airline with most higher delay rate was __Plus Ulktra Líneas Aéreas (61%)__.  
+![](/images/FDAtrasos1.PNG)  
+![](/images/FDAtrasos2.PNG)  

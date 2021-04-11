@@ -137,4 +137,29 @@ If we look into the monthly delay rate, __July (29%)__ has the highest rate and 
 Also, as anyone would expect, the highest delayes happen during __High Season Flights (20%)__ and in __International Flights (23%)__.  
 ![](/images/FDAtrasos5.PNG)  ![](/images/FDAtrasos6.PNG)  
 
- 
+ Joining all the different Rates, I created a new DataFrame of Features:  
+![](/images/FDATasasdf.png)  
+
+An interesting fact to see is the correlation between the delay rates. Two correlations are worth mentioning: __57%__ between the delay rate of the airline and the delay rate of the destination; and __47%__ between the the delay of the type of flight (National or International) and the destination.  
+![](/images/FDCorrMat.PNG)  
+
+The final DataFrame I worked with was the union between the Dataframe with Rates and a binary variable showing the season in which the flight was booked. Also the daily rate was deleted since it didn´t give very much information.  
+
+### Building the Models  
+
+For this challenge I built a total of six models. I had a really good time testing different models. All of them are summarized below:  
+![](/images/FDModelSummary.PNG)  
+
+As I mentioned at the beginning, since the classes are unbalanced, using Accuracy as a performance metric is not adequate since we could choose a totally random model that only makes a prediction that a flight will always be punctual and obtain a fairly good Accuracy. In this case, given that there are 13616 delayed flights out of a total of 68206 instances, this hypothetical model that would only provide as a prediction that all flights will not be delayed, would have an Accuracy of 80% ((68206-13616) / 68206), but in practice would be useless.
+
+As seen in the previous table, the worst model was the __Logistic Regression__, although it had a fairly high Accuracy, it had an incredibly low Recall, which means that of all the flights that were really delayed, it only correctly identified 3%.
+
+__Random Forest__ and __XGBoost__ had a fairly similar performance, both in Accuracy, Precision and Recall. Although there was an improvement compared to the Logistic Regression model, this improvement was not good enough and the model was still inefficient.  
+
+The big difference was noticed in the last three models corresponding to XGBoost when configuring the __Scale_pos_weight__ hyperparameter, which penalizes the errors committed in the class with the least amount samples. The ratio between negative classes / positive classes is commonly used as value for this Hyperparameter. For this particular case the ratio was 4 and then only to continue testing the effect that this hyperparameter had, two more models were run with values of 5.7 and 20 (extreme case) respectively. These three models had a remarkable increase in __Recall (58%, 77% and even 99%)__. However, this increase represents a Trade Off with the __Precision of the Model that decreased drastically (29%, 26% and 19%)__. So, this is where it is worth asking what are we looking with this model: a model that manages to hit the vast majority of the predictions it makes even though it is not capable of detecting all the delayed flights (High Precision / Minor Recall)? Or a model that manages to identify most of the delayed flights, although it confuses some that are indeed punctual and classifies them as delayed (High Recall, Lower Accuracy)? Given the quality of the dataset and the problem, Recall is the measure that matters in this case.  
+
+I decided to work with these algorithms since they are one of the most successful, according to the literature and competitions. I started with Logistic Regression as it is one of the most basic classification algorithms or at least in my case it was the first one I learned. Then I continued advancing with the ensemble that is Random Forests, based on the theory of Wisdom of the Group and then I finished with XGBoost, which is a boosting-type algorithm that emphasizes on the residuals in order to improve more and more in the predictions. If I had to decide on only one model, it would be model number five. Although it does not have the best precision, it presents a fairly good recall and is precisely what you are looking for in this type of problem.
+
+
+
+

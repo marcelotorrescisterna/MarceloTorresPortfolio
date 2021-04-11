@@ -129,3 +129,12 @@ Moving on with the EDA, the figure below shows the distribution between delayed 
 You can clearly see that the classes are __Imbalanced__ , therefore using __Accuracy__ as a performance measure would be a wrong choice (later I will explain why). We should instead focus on __Precision__ , __Recall__ or __F1 Score__. The next two DataFrames show that the location with most delayed flights is __Sydney (58%)__ and that the Airline with most higher delay rate was __Plus Ulktra Líneas Aéreas (61%)__.  
 ![](/images/FDAtrasos1.PNG)  
 ![](/images/FDAtrasos2.PNG)  
+
+If we look into the monthly delay rate, __July (29%)__ has the highest rate and if we look deeper into the daily behaviour, __Friday (22%)__ has the greatest delays.  
+![](/images/FDAtrasos3.PNG)  
+![](/images/FDAtrasos4.PNG)  
+
+Also, as anyone would expect, the highest delayes happen during __High Season Flights (20%)__ and in __International Flights (23%)__.  
+![](/images/FDAtrasos5.PNG)  ![](/images/FDAtrasos6.PNG)  
+
+ 

@@ -10,3 +10,18 @@ There is a winrar file containing all the files used in this proyect. First of a
 2) __Data__ : Contains the dataset used to train the ML Algorithm which are Messages and Categories (to which the messages belong to). Also it has a __process_data__ file in which the preprocessing can be automaticaly done.
 3) __Models__: Contains the script used to ingest data and train an ML Model
 
+## Running the Code
+Everything is specified in the .py files. A detailed explanation is shown below. Once you extract all the files:
+
+1. Run the following commands in the project's root directory to set up your database and model.
+
+    - To run ETL pipeline that cleans data and stores in database
+        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
+    - To run ML pipeline that trains classifier and saves
+        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+
+2. Run the following command in the app's directory to run your web app.
+    `python run.py`
+
+3. Go to http://0.0.0.0:3001/
+

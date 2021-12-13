@@ -10,7 +10,7 @@ There is a winrar file containing all the files used in this proyect. First of a
 2) __Data__ : Contains the dataset used to train the ML Algorithm which are Messages and Categories (to which the messages belong to). Also it has a __process_data__ file in which the preprocessing can be automaticaly done.
 3) __Models__: Contains the script used to ingest data and train an ML Model
 
-## Running the Code
+## Installations
 Everything is specified in the .py files. A detailed explanation is shown below. Once you extract all the files:
 
 1. Run the following commands in the project's root directory to set up your database and model.
@@ -24,4 +24,9 @@ Everything is specified in the .py files. A detailed explanation is shown below.
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+
+## Acknowledgements 
+
+* Figure Eight: For Providing the Dataset
+* Udacity Nanodegree Team: For explaining Pipelines with pandas, nlp and flask
 

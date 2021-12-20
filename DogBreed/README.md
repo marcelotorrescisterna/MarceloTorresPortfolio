@@ -10,3 +10,9 @@ Inside the Files folder you can find:
 2. Testing Images used to Test the whole algorithm
 
 ## Installations
+
+Save the Test Images into an Images/Example folder. Run the jupyter notebook normally. I can´t upload everything such as the dataset or extracted features because of the weight of the files, however, inside the notebook you can find a detailed explanation.
+
+## Acknowledgements
+
+* Udacity Team: For providing some basic code and functions
